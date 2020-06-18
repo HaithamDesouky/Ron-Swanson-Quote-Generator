@@ -1,0 +1,109 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #D6C2B7;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: "Roboto";
+}
+
+
+.content {
+    display: flex;
+    align-items: center;
+    text-align: left;
+    width: 100%;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(71, 41, 50, 0.3);
+    width: 65vw;
+    height: 85vh;
+    text-align: center;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    border: 1px solid #344527
+}
+
+img {
+    
+    width: 20vw;
+    min-width: 20vw;
+    height: 30vh;
+    padding: 30px;
+    position: relative;
+    border-radius: 40px;
+}
+
+.quote {
+    max-height: 30vh;
+    font-size: 1.7rem;
+    height: 40vh;
+  
+  
+}
+
+p{
+padding-top: 30px;
+font-size: 1.7rem;
+color: #CDD184
+
+
+}
+
+h2 {
+    font-size: 2.5rem;
+    color: #CDD184
+}
+button {
+    background-color: #D6C2B7;
+    border: none;
+    width: 20vw;
+    height: 10vh;
+    font-size: 1.7rem;
+    font-weight: bold;
+    color: #344527;
+    padding: 10px;
+}
+
+button:hover {
+    transform: scale(1.1);
+}
+
+span {
+    font-size: 3rem;
+    color: #9B3B96;;
+}
+
+@media (max-width: 830px) {
+    .container {
+       width: 90vw;
+       height: 90vh;
+    }
+
+    img {
+    height: 20vh; 
+    
+
+    }
+    .quote{
+        font-size: 1.5rem
+    };
+
+    span {
+        font-size: 1rem;
+    }
+
+    button {
+        width: 30vw;
+        height: 13vh;
+    }
+  }
+
+
