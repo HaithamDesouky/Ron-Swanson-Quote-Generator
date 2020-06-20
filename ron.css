@@ -64,12 +64,13 @@ h2 {
 button {
     background-color: #D6C2B7;
     border: none;
-    width: 20vw;
-    height: 10vh;
+    width: 30vw;
+    height: 9vh;
     font-size: 1.7rem;
     font-weight: bold;
     color: #344527;
-    padding: 10px;
+    padding: 8px;
+    margin-top: -20px;
 }
 
 button:hover {
